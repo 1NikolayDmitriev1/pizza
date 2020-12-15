@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container d-flex justify-content-between ">
+        <a class="main-logo" href="/"
+          ><img src="img/logo-white.png" alt=""
+        /></a>
+
+        <nav id="navUp" class="navbar navbar-expand-lg">
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item active px-3">
+                <a class="nav-link" href="#">HOME </a>
+              </li>
+              <li class="nav-item px-3">
+                <a class="nav-link" href="#us">ABOUT US</a>
+              </li>
+              <li class="nav-item px-3">
+                <a class="nav-link" href="#sel">SELLERS</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <div></div>
+        <button type="button" type="button" class="btn order btn-disp btn-danger">
+          ORDER
+        </button>
+        <div class="card basket disp text-dark" style="width: 18rem">
+          <div class="card-body">
+            <h3 class="card-title">Корзина</h5>
+              <hr>
+              <p class="basket-item"></p>
+            <hr>
+            <p class="sum"></p>
+            <a href="#" class=" btn btn-outline-danger   card-link text-dark">Оплатить</a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="main-slider">
+      <div class="triangle"></div>
+
+      <div class="container">
+        <div class="main-info">
+          <h5 class="mini-title">BEST IN TOWN</h5>
+          <h1>Pizza</h1>
+          <a href="#sel" class="btn p-3 btn-danger"> SEE TODAYS MENU </a>
+        </div>
+      </div>
+    </section>
+    <section class="about-us d-flex justify-content-between">
+      <div class="pasta"></div>
+      <div class="tomato"></div>
+      <div class="container">
+        <div id="us" class="about-info">
+          <div class="heading">
+            <img src="img/heading_logo.png" alt="" />
+            <h2>Our Story</h2>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <p>
+                Maecenas fermentum tortor id fringilla molestie. In hac
+                habitasse platea dictumst. Morbi maximus lobortis ipsum, ut
+                blandit augue ullamcorper vitae. Nulla dignissim leo felis, eget
+                cursus elit aliquet ut. Curabitur vel convallis massa. Morbi
+                tellus tortor, luctus et lacinia non, tincidunt in lacus.
+                Vivamus sed ligula imperdiet, feugiat magna vitae, blandit ex.
+                Vestibulum id dapibus dolor, ac cursus nulla.
+              </p>
+            </div>
+            <div class="col-md-6">
+              <p>
+                Maecenas fermentum tortor id fringilla molestie. In hac
+                habitasse platea dictumst.Morbi maximus lobortis ipsum, ut
+                blandit augue ullamcorper vitae. Nulla dignissim leo felis, eget
+                cursus elit aliquet ut. Curabitur vel convallismassa. Morbi
+                tellus tortor, luctus et lacinia non, tincidunt in lacus.
+                Vivamus sed ligula imperdiet, feugiat magna vitae, blandit ex.
+                Vestibulumidda pibus dolor, accursus nulla.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="best">
+      <div class="triangle"></div>
+      <div class="triangle-top"></div>
+      <div class="heading">
+        <img id="sel" src="img/heading_logo.png" alt="" />
+        <h2 class="text-white">BestSellers</h2>
+      </div>
+      <div class="container target-container">
+        <div class="wrap"></div>
+      </div>
+    </section>
+    <div class="up">
+      <a href="#navUp" class="btn"
+        ><img
+          src="https://img.icons8.com/plasticine/100/000000/circled-chevron-up.png"
+      /></a>
+    </div>
+    <script src="main.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"
+      integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js"
+      integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

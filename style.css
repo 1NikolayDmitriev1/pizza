@@ -1,0 +1,240 @@
+body {
+    box-sizing: border-box;
+    color: #fff;
+
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+p {
+    color: black;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 1000;
+    padding: 25px 0;
+    font-weight: 600;
+
+}
+
+@font-face {
+    font-family: Beyond;
+    src: url(beyond_the_mountains.woff);
+}
+
+h1 {
+    font-family: Beyond;
+    font-size: 100px;
+    padding: 30px 0;
+}
+
+h2 {
+    color: black;
+    font-family: Beyond;
+    font-size: 50px;
+    margin-bottom: 70px;
+}
+
+.nav-link:hover {
+    color: red;
+}
+
+.main-logo {
+    height: 70px;
+}
+
+.main-logo>img {
+    height: 100%;
+    width: auto;
+}
+
+.btn-danger:hover {
+    background: none;
+}
+
+.basket {
+    position: fixed;
+    right: 20px;
+    top: 130px
+}
+
+.order {
+    position: fixed;
+    right: 100px;
+    top: 25px;
+    padding: 25px 30px;
+}
+
+.disp {
+    display: none;
+}
+
+header:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+    background: #000;
+    z-index: -1;
+    opacity: .6;
+}
+
+header:after {
+    content: '';
+    height: 10px;
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    right: 0;
+    background: url(img/triangle_bg_black.png) repeat-x;
+    background-size: 26px 10px;
+    opacity: .6;
+}
+
+.main-slider {
+    height: 900px;
+    padding: 100px 0 70px;
+    position: relative;
+    z-index: 1;
+    background: url(img/slider_1_1920_1200.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.main-slider:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    background: rgba(0, 0, 0, .4);
+}
+
+.triangle {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.triangle:after {
+    content: '';
+    height: 10px;
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+    background: url(img/triangle_bg.png) repeat-x;
+    background-size: 26px 10px;
+}
+
+.main-info {
+    padding: 300px 0;
+    text-align: center;
+}
+
+.about-us {
+    position: relative;
+    padding: 130px 200px;
+}
+
+.pasta {
+    width: 20%;
+    background: url(img/story_bg_1.png) no-repeat center;
+    background-size: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.tomato {
+    width: 20%;
+    background: url(img/story_bg_2.png) no-repeat center;
+    background-size: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+}
+
+.heading {
+    text-align: center;
+}
+
+.heading>img {
+    width: 40px;
+    margin-bottom: 20px;
+}
+
+.best {
+    padding: 100px 0;
+    background: url(img/sellers-1-1600x1600.jpg) no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+    color: white;
+
+}
+
+.best::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    background: rgba(0, 0, 0, .85);
+}
+
+.triangle-top:after {
+    content: '';
+    height: 10px;
+    position: absolute;
+    top: 0px;
+    left: 0;
+    right: 0;
+    background: url(img/triangle_bg.png) repeat-x;
+    background-size: 26px 10px;
+    transform: rotate(180deg);
+
+}
+
+.dop>* {
+    font-size: 24px;
+    text-align: center;
+    color: white;
+    margin: 15px 0;
+}
+
+.wrap {
+    padding: 0 200px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.up {
+    z-index: 10;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+}
+
+.up>a>img {
+    width: 70px;
+}
